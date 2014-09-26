@@ -1,26 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mocha</title>
+    <title>Benchmarks</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mocha.css" />
     <style>
-      html { font-family: Helvetica; }
+      html { font-family: Courier New; padding: 30px; }
+      ul { padding-left: 0; }
+      li { list-style: none; margin-left: 20px; }
       .test-container { position: absolute; bottom: 20px; left: 20px; }
     </style>
   </head>
   <body>
-    <div id="mocha"></div>
-    <script src="mocha.js"></script>
-    <script>mocha.setup('bdd')</script>
     <script src="../build/test.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="should.js"></script>
-    <script src="tests.js"></script>
-    <script>
-      mocha.run();
-    </script>
+    <script src="benchmark.js"></script>
     <div class="test-container">
       <span class="test">span</span>
       <button class="test">button</button>

@@ -5,6 +5,11 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": [
-    "index.js"
-  ]
+    "index.js",
+    "rule.js"
+  ],
+  "dependencies": {
+    "matthewp/keys": "~0.0.3",
+    "component/each": "~0.2.5"
+  }
 }
