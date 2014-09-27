@@ -3,13 +3,14 @@
   "repo": "mndvns/sheet",
   "description": "Interface for stylesheet manipulation",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": [
-    "index.js",
-    "rule.js"
+    "lib/index.js",
+    "lib/rule.js"
   ],
   "dependencies": {
     "matthewp/keys": "~0.0.3",
-    "component/each": "~0.2.5"
+    "component/query": "~0.0.3",
+    "matthewmueller/uid": "~0.0.2"
   }
 }
