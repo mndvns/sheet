@@ -2,7 +2,7 @@
   "name": "sheet",
   "repo": "mndvns/sheet",
   "description": "Interface for stylesheet manipulation",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "scripts": [
     "lib/index.js",
